@@ -6,6 +6,8 @@ public class MouseLook : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
     public Transform playerBody;
+    public UIController uiController;
+
     float xRotation = 0f;
 
     // Start is called before the first frame update
@@ -17,6 +19,10 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!uiController.cursorLocked) {
+            // Игнорируем движение мыши, если активирован UI
+            return;
+        }
         float MouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float MouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 

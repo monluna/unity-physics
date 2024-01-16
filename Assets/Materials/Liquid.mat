@@ -38,12 +38,12 @@ Material:
     m_Floats:
     - Vector1_e4e3929f6e934707b4597b378d112762: 0.46
     - Vector1_f0b0ae6e831d4fd98091ff24947327aa: 0
-    - _Fill: 0.66
+    - _Fill: 0.5
     - _WobbleX: 0
     - _WobbleZ: 0
     m_Colors:
-    - Color_395ceb43a1554dafad89424342a1e242: {r: 0.20733352, g: 0.59080887, b: 0.9811321, a: 1}
-    - Color_9cdf1fd036f44c47b14e4258fca6c1e0: {r: 0.26240656, g: 0.8339459, b: 0.8584906, a: 1}
+    - Color_395ceb43a1554dafad89424342a1e242: {r: 0.20733327, g: 0.5908088, b: 0.9811321, a: 0.5019608}
+    - Color_9cdf1fd036f44c47b14e4258fca6c1e0: {r: 0.05663921, g: 0.78153086, b: 0.8113207, a: 0.5019608}
     - Vector3_b37e63a311fa4b43acb0e17d3b65f452: {r: 0, g: 0.25, b: 0, a: 0}
     - Vector4_a38890267c3b4c97bcf7e12f6d34d810: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
